@@ -29,29 +29,49 @@ En el proyecto se utiliza mucho la libreria de pandas, porque domino mucho mejor
 
 El Dashboard tiene 5 paginas ademas del inicio:
 
-    -La primera tiene 2 mapas que grafican la distribucion de accidentes en la ciudad, separando en que comuna estan, para esto se tenia que crear una tabla que contuviera las localidades de cada comuna, porque el mapa de power bi de areas no reconoce todos los nombres "Comuna N", pero el de las localidades si.
+    -La primera tiene 2 mapas que grafican la distribucion de accidentes en la ciudad, separando en que comuna estan,
+    para esto se tenia que crear una tabla que contuviera las localidades de cada comuna, porque el mapa de power bi de
+    areas no reconoce todos los nombres "Comuna N", pero el de las localidades si.
 
-    -La segunda consiste en varios 3 diagramas de barras que tienen informacion de la cantidad de accidentes por comuna, por el tipo de victima y por tipo de calle con un filtro de fechas.
+    -La segunda consiste en varios 3 diagramas de barras que tienen informacion de la cantidad de accidentes por comuna,
+    por el tipo de victima y por tipo de calle con un filtro de fechas.
 
     -La tercera contiene datos acerca de las victimas y los acusados, donde se puede filtrar por edad y por sexo.
 
-    -La cuarta y quinta son los dos KPI's de la consigna, contiene un grafico donde se pueden ver detalles de los cammbios y el grafico del kpi donde aparece el valor seleccionado y cual fue su rendimiento.
+    -La cuarta y quinta son los dos KPI's de la consigna, contiene un grafico donde se pueden ver detalles de los
+    cammbios y el grafico del kpi donde aparece el valor seleccionado y cual fue su rendimiento.
 
 ## KPI's
 
 En la consigna hay 2 KPI's:
 
-    - Uno conciste en reducir un 10% la tasa de mortalidad de accidentes por cada 100.000 habitantes en cada semestre. Para esto tuve que buscar una fuentes de datos que contenga informacion acerca del censo poblacional del 2016 hasta el 2021 y que estuviera dividido por comunas. Esas tablas se consiguieron en la pagina Estadistica de la ciudad(el link esta en el notebook del EDA) una vez armada la tabla con la poblacion se podia hacer el respectivo calculo de la tasa de mortalidad que es (cantidad de accidentes en zona geografica/poblacion total de dicha zona)*100.000 una vez calculada la tasa se crea otra columna llamada objetivo que va a ser el valor de medida del kpi, como queremos que baje un 10% cada semestre se debe multiplicar la tasa del semestre anterior por 0.9 y luego el grafico del power bi se va a encargar de graficar el resto.
+    - Uno conciste en reducir un 10% la tasa de mortalidad de accidentes por cada 100.000 habitantes en cada semestre.
+    Para esto tuve que buscar una fuentes de datos que contenga informacion acerca del censo poblacional del 2016 hasta
+    el 2021 y que estuviera dividido por comunas. Esas tablas se consiguieron en la pagina Estadistica de la ciudad(el
+    link esta en el notebook del EDA) una vez armada la tabla con la poblacion se podia hacer el respectivo calculo de
+    la tasa de mortalidad que es (cantidad de accidentes en zona geografica/poblacion total de dicha zona)*100.000 una
+    vez calculada la tasa se crea otra columna llamada objetivo que va a ser el valor de medida del kpi, como queremos
+    que baje un 10% cada semestre se debe multiplicar la tasa del semestre anterior por 0.9 y luego el grafico del power
+    bi se va a encargar de graficar el resto.
 
-    -Otro consiste en reducir un 7% la cantidad de accidentes por moto semestral, a diferencia del KPI anterior en este no necesitamos la informacion de la poblacion, dado que es cantidad solo se cuenta la cantidad de registros por año y semestre, luego solo hay que crear la columna objetivo que se calcula (cantidad de accidentes anterior*0.93) porque es el valor anterior reducido un 7%.
+    -Otro consiste en reducir un 7% la cantidad de accidentes por moto semestral, a diferencia del KPI anterior en este
+    no necesitamos la informacion de la poblacion, dado que es cantidad solo se cuenta la cantidad de registros por año
+    y semestre, luego solo hay que crear la columna objetivo que se calcula (cantidad de accidentes anterior*0.93)
+    porque es el valor anterior reducido un 7%.
 
 Los dos KPI's tienen sus propias tablas y cada KPI tienen 2 graficos de lineas, uno donde se le puede indicar la comuna que esta a la izquierda y el general que esta a la derecha, estas tablas se llaman "cantidad_muertes_motos.csv" y "tasas.csv".
 
 ## Conclusiones
 
-    Aunque el desarrollo del proyecto no es perfecto se logra abarcar gran parte del analisis de todos los campos de las tablas, todas las conclusiones tecnicas estan en el EDA. 
+    Aunque el desarrollo del proyecto no es perfecto se logra abarcar gran parte del analisis de todos los campos de las
+    tablas, todas las conclusiones tecnicas estan en el EDA. 
 
-    En cuanto a los siniestros viales, las medidas que se pueden tomar, es aumentar la cantidad de semaforos, y vigilancias en estos para poner multas y que los conductores lo piensen mejor antes de hacer una infraccion, obviamente no todos los siniestros viales se dan por inprudencias de parte del acusado, puede haber mas causas como distracciones de parte de las victimas, en ese caso lo unico que se puede hacer es concientizar a las personas que pongan mas atencion cuando caminen y manejen en la calle aun cuando estan respetando las normas de transito, ya que si otra persona no lo hace puede poner en riesgo a otras personas.
+    En cuanto a los siniestros viales, las medidas que se pueden tomar, es aumentar la cantidad de semaforos, y
+    vigilancias en estos para poner multas y que los conductores lo piensen mejor antes de hacer una infraccion
+    obviamente no todos los siniestros viales se dan por inprudencias de parte del acusado, puede haber mas causas como
+    distracciones de parte de las victimas, en ese caso lo unico que se puede hacer es concientizar a las personas que
+    pongan mas atencion cuando caminen y manejen en la calle aun cuando estan respetando las normas de transito, ya que
+    si otra persona no lo hace puede poner en riesgo a otras personas.
 
 ### Enunciado del proyecto
 
