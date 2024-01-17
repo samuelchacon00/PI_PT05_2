@@ -1,5 +1,0 @@
-en ves de borrar los nulos de las columnas x e y puedes buscar la forma de asignarle de forma aleatoria una coordenada que este dentro del area de la comuna
-
-Observacion en el dashboard:
-	-los accidentes ocurren mayormente en las avenidas.
-	-
