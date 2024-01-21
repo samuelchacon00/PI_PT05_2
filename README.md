@@ -61,6 +61,8 @@ En la consigna hay 2 KPI's:
 
 Los dos KPI's tienen sus propias tablas y cada KPI tienen 2 graficos de lineas, uno donde se le puede indicar la comuna que esta a la izquierda y el general que esta a la derecha, estas tablas se llaman "cantidad_muertes_motos.csv" y "tasas.csv".
 
+Imagenes adjuntas del dashboard.
+
 ## Conclusiones
 
 Aunque el desarrollo del proyecto no es perfecto se logra abarcar gran parte del analisis de todos los campos de las
