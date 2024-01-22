@@ -41,6 +41,12 @@ El Dashboard tiene 5 paginas ademas del inicio:
     -La cuarta y quinta son los dos KPI's de la consigna, contiene un grafico donde se pueden ver detalles de los
     cammbios y el grafico del kpi donde aparece el valor seleccionado y cual fue su rendimiento.
 
+Imagenes adjuntas del dashboard.
+
+<p align="center">
+<img src="https://github.com/samuelchacon00/PI_PT05_2/blob/master/src/accidentes.png"
+height=300></p>
+
 ## KPI's
 
 En la consigna hay 2 KPI's:
@@ -60,8 +66,6 @@ En la consigna hay 2 KPI's:
     porque es el valor anterior reducido un 7%.
 
 Los dos KPI's tienen sus propias tablas y cada KPI tienen 2 graficos de lineas, uno donde se le puede indicar la comuna que esta a la izquierda y el general que esta a la derecha, estas tablas se llaman "cantidad_muertes_motos.csv" y "tasas.csv".
-
-Imagenes adjuntas del dashboard.
 
 ## Conclusiones
 
