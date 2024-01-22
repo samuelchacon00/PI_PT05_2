@@ -44,8 +44,28 @@ El Dashboard tiene 5 paginas ademas del inicio:
 Imagenes adjuntas del dashboard.
 
 <p align="center">
+<img src="https://github.com/samuelchacon00/PI_PT05_2/blob/master/src/inicio.png"
+height=400></p>
+
+<p align="center">
+<img src="https://github.com/samuelchacon00/PI_PT05_2/blob/master/src/mapa.png"
+height=400></p>
+
+<p align="center">
 <img src="https://github.com/samuelchacon00/PI_PT05_2/blob/master/src/accidentes.png"
-height=300></p>
+height=400></p>
+
+<p align="center">
+<img src="https://github.com/samuelchacon00/PI_PT05_2/blob/master/src/victimas.png"
+height=400></p>
+
+<p align="center">
+<img src="https://github.com/samuelchacon00/PI_PT05_2/blob/master/src/kpi_tasas.png"
+height=400></p>
+
+<p align="center">
+<img src="https://github.com/samuelchacon00/PI_PT05_2/blob/master/src/kpi_motos.png"
+height=400></p>
 
 ## KPI's
 
